@@ -1,0 +1,16 @@
+body {
+    background-color: darkgreen;
+    justify-items: center;
+}
+
+.el1{
+    background-color: bisque;
+    width: 500px;
+}
+
+.ex1{
+    background-color: cadetblue;
+    width: 500px;
+    padding: 50px;
+    box-sizing: border-box;
+}
