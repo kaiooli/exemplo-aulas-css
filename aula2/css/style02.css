@@ -1,0 +1,24 @@
+body {
+  background-color: blueviolet;
+}
+
+.div{
+    display: flex;
+}
+.ex1 {
+  background-color: aqua;
+  width: 200px;
+  margin-top: 40px 0px 0px 100px;
+ 
+}
+
+.ex2 {
+  background-color: red;
+  width: 200px;
+}
+
+.ex3{
+    width: 200px;
+    background-color: wheat;
+    margin: auto;
+}
