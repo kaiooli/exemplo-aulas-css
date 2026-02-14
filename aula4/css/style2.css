@@ -1,0 +1,46 @@
+body{
+    background-color: darkslategray;
+}
+
+.link:hover{
+    color: aqua;
+}
+
+.link:link{
+    color: chartreuse;
+    background-color: blue;
+}
+
+
+.link:active{
+    color: darkred;
+    background-color: black;
+}
+
+.link:visited{
+    color: darkorange;
+    background-color: cornflowerblue;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link-bnt:link, link-bnt:visited {
+   /* background-color: red;*/
+   background-color: transparent;
+   border: 3px solid black;
+    color: blue;
+    padding: 20px 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.link-bnt:hover, link-bnt:active {
+    background-color: white;
+    color:  gray;
+    transition: 0.9s;
+
+}
