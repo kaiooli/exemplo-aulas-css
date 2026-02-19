@@ -1,0 +1,144 @@
+body{
+    background-color: cornsilk;
+}
+
+.ex1{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 20, 145, 0);
+    gap: 10px;
+}
+
+.ex1 div{
+    background-color: bisque;
+    color: darkgray;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+
+
+.ex2{
+    display: flex;
+    flex-direction: column;
+    background-color: dimgray;
+}
+
+.ex2 div{
+    background-color: bisque;
+    color: darkgray;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.ex3{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: dimgray;
+    gap: 10px;
+}
+
+.ex3 div{
+    background-color: bisque;
+    color: darkgray;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.ex4{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: dimgray;
+    gap: 10px;
+}
+
+.ex4 div{
+    background-color: bisque;
+    color: darkgray;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.ex5{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(235, 24, 24);
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+.ex5 div{
+    background-color: rgb(195, 119, 25);
+    color: rgb(181, 81, 81);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.ex6{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(235, 24, 24);
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.ex6 div{
+    background-color: rgb(195, 119, 25);
+    color: rgb(181, 81, 81);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+
+
+.ex7{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(235, 24, 24);
+    flex-wrap: wrap wrap-reverse;
+    gap: 10px;
+}
+
+.ex7 div{
+    background-color: rgb(195, 119, 25);
+    color: rgb(181, 81, 81);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.ex8{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(235, 24, 24);
+    flex-wrap: wrap wrap-reverse;
+    gap: 10px;
+}
+
+.ex8 div{
+    background-color: rgb(195, 119, 25);
+    color: rgb(181, 81, 81);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
