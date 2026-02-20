@@ -1,0 +1,121 @@
+body{
+    background-color: blue;
+    color: rgb(70, 43, 95);
+}
+
+
+.ex1{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ex1 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(16, 16, 16);
+    color: blue;
+}
+
+.ex2{
+    display: flex;
+    height: 200px;
+    align-items: flex-start;
+    gap: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ex2 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(16, 16, 16);
+    color: blue;
+}
+
+.ex3{
+    display: flex;
+    height: 200px;
+    align-items: flex-end;
+    gap: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ex3 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(16, 16, 16);
+    color: blue;
+}
+
+.ex4{
+    display: flex;
+    height: 200px;
+    align-items: stretch;
+    gap: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ex4 div{
+    width: 100px;
+    text-align: center;
+    background-color: rgb(16, 16, 16);
+    color: blue;
+}
+
+.ex5{
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ex5 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(16, 16, 16);
+    color: blue;
+}
+
+.ex6{
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    align-items: space-between;
+    gap: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ex6 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(16, 16, 16);
+    color: rgb(0, 168, 6);
+}
+
+.ex7{
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ex7 div{
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(16, 16, 16);
+    color: rgb(0, 168, 6);
+}
