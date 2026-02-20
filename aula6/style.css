@@ -1,0 +1,106 @@
+body{
+    background-color: yellowgreen;
+}
+
+.ex1{
+    background-color: darkolivegreen;
+    display: flex;
+    gap: 30px;
+}
+
+.ex1 div{
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+}
+
+.ex2{
+    background-color: darkolivegreen;
+    display: flex;
+    gap: 30px;
+}
+
+.ex2 div{
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+}
+
+.ex3{
+    background-color: darkolivegreen;
+    display: flex;
+    gap: 30px;
+}
+
+.ex3 div{
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+}
+
+.ex4{
+    background-color: darkolivegreen;
+    display: flex;
+    gap: 30px;
+}
+
+.ex4 div{
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+}
+
+.ex5{
+    background-color: darkolivegreen;
+    height: 200px;
+    display: flex;
+    gap: 30px;
+}
+
+.ex5 div{
+    width: 100px;
+    background-color: darkgreen;
+}
+
+.ex5 #it3{
+    align-self: center;
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+.ex6{
+    background-color: darkolivegreen;
+    height: 200px;
+    display: flex;
+    gap: 30px;
+}
+
+.ex6 div{
+    width: 100px;
+    background-color: darkgreen;
+}
+
+.ex6 #item1{
+    align-self: flex-start;
+    background-color: cadetblue;
+    color: green;
+    height: 100px;
+}
+
+.ex6 #item2{
+    align-self: center;
+    background-color: cadetblue;
+    color: green;
+    height: 100px;
+}
+
+.ex6 #item3{
+    align-self: flex-end;
+    background-color: cadetblue;
+    color: green;
+    height: 100px;
+}
+
+
+
