@@ -1,0 +1,27 @@
+body{
+    background-color: grey;
+}
+
+.ex1{
+    justify-content: center;
+    background-color: dimgray;
+    display: flex;
+    gap: 30px;
+}
+
+.ex1 div{
+    background-color: darkgray;
+    width: 100px;
+    height: 100px;
+    background-color: ghostwhite;
+    align-content: center;
+    text-align:  center;
+    color: black;
+}
+
+@media (max-width: 700px){
+    .ex1{
+        align-items: center;
+        flex-direction: column;
+    }
+}
