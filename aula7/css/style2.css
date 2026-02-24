@@ -1,0 +1,111 @@
+body{
+    font-family: sans-serif;
+    background-color: blueviolet;
+}
+
+.ex1{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: dodgerblue;
+    color: darkgreen;
+    align-content: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.ex1 div{
+    width: 100px;
+    height: 100px;
+    background-color: darkolivegreen;
+    text-align: center;
+    align-items: center;
+}
+
+.ex2{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: dodgerblue;
+    color: darkgreen;
+    align-content: space-evenly;
+    gap: 10px;
+    justify-content: center;
+}
+
+.ex2 div{
+    width: 100px;
+    height: 100px;
+    background-color: darkolivegreen;
+    text-align: center;
+    align-items: center;
+}
+
+.ex3{
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: dodgerblue;
+    color: darkgreen;
+    align-content: space-around;
+    gap: 10px;
+    justify-content: center;
+}
+
+.ex3 div{
+    width: 500px;
+    height: 100px;
+    background-color: darkolivegreen;
+    text-align: center;
+    align-items: center;
+}
+
+.ex4{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: dodgerblue;
+    color: darkgreen;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.ex4 div{
+    width: 100px;
+    height: 100px;
+    background-color: darkolivegreen;
+    text-align: center;
+    align-items: center;
+}
+
+.ex5{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: dodgerblue;
+    color: darkgreen;
+    align-content: start;
+    justify-content: center;
+}
+
+.ex5 div{
+    width: 100px;
+    height: 100px;
+    background-color: darkolivegreen;
+    text-align: center;
+    align-items: center;
+}
+
+.ex6{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: dodgerblue;
+    color: darkgreen;
+    align-content: end;
+    justify-content: center;
+}
+
+.ex6 div{
+    width: 100px;
+    height: 100px;
+    background-color: darkolivegreen;
+    text-align: center;
+    align-items: center;
+}
+
